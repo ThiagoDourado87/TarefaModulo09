@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+}
+
+header{
+    justify-content: center;
+    text-transform: uppercase;
+    display: flex;
+    padding: 16px;
+    font-style: italic;
+}
+
+form{
+    padding: 24px 0;
+    text-align: center;
+}
+
+input, button{
+    padding: 8px;
+}
+
+button{
+    background-color: #696969;
+    border:none;
+    cursor:pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: larger;
+    padding: 5px;
+}
+
+.atividade-realizada{
+text-decoration: line-through;
+}
